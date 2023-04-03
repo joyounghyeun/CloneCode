@@ -3,9 +3,7 @@ import { Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Auth from "../routes/Auth";
 import Home from "../routes/Home";
 
-function AppRouter() {
-  const [isLogin, setIsLogin] = useState(false);
-
+function AppRouter({ isLogin }) {
   return (
     <BrowserRouter>
       <Routes>
