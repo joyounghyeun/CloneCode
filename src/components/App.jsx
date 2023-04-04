@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Router } from "react-router-dom";
 import AppRouter from "./Router";
-import Appfir from "../Appfirebase";
+
 import Appfirebase from "../Appfirebase";
 
 function App() {
-  const auth = Appfirebase.auth();
   const [isLogin, setIsLogin] = useState(false);
 
   return (
