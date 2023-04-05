@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./components/App";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import firebase from "./Appfirebase";
+import firebase from "./common/Firebase";
 console.log(firebase);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
